@@ -12,4 +12,4 @@ access the app using the link http://localhost:3000  (paste into browser)
 
 
 Future update:
-Making data auto-update every hour by placing information in span elements, then fetching new data from the openweather server every hour and replacing the textcontent of the span elements.
+Make data auto-update every hour. Achieved by placing data in span elements, then fetching new data from the openweather server every hour and replacing the textcontent of the span elements with the updated data.
