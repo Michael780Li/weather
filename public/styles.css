@@ -1,0 +1,78 @@
+.main {
+  text-align: center;
+  background-color: lightblue;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#add {
+}
+#navigation {
+  margin-top: 10px;
+  display: inline-block;
+}
+
+#main-title {
+  margin-top: 20px;
+  color: white;
+}
+
+#info {
+  justify-content: center;
+  text-align: center;
+}
+#hi {
+  color: red;
+}
+
+/* carousel */
+#info {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+
+  flex-direction: column;
+  background-color: #add8e6;
+  color: white;
+}
+h1 {
+  margin-block-start: 10px;
+  margin-block-end: 0;
+}
+h3 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+#weather-img {
+  margin: auto;
+
+  width: 100px;
+}
+#info > #current-temp {
+  margin-block-start: 0.2em;
+  margin-block-end: 0;
+  font-size: 40px;
+  position: relative;
+  left: 4px;
+}
+#info > #temp-range {
+  position: relative;
+  right: 4px;
+}
+#table-div {
+  text-align: left;
+}
+
+#extra {
+  position: relative;
+  margin: auto;
+  right: 6px;
+  margin-bottom: 30px;
+  color: white;
+}
+.btn-danger {
+  margin: auto;
+}
